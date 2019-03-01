@@ -1,0 +1,155 @@
+.bag-container{
+	//background: linear-gradient(to top, #063964, #020D18);
+	max-width: 800px;
+	margin: 0 auto;
+	//margin-top: 323px; 
+}
+
+.cardsBag{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 39px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+
+.cardBag{
+	position: relative;
+	text-decoration: none;
+	min-width: 177px;
+	text-align: center;
+}
+
+.card-body-opacity {
+	opacity: 0.3;
+}
+
+.cardBag span {
+	display: block;
+}
+
+.cardBag .card-header {
+	min-height: 139px;
+}
+
+.cardBag .card-header-opacity {
+	min-height: 139px;
+}
+
+span.card-header-opacity {
+	color: #EE474C;
+}
+
+.cardBag .card-header img {
+	position: relative;
+	right: 28px;
+}
+
+.cardBag .card-header-opacity img {
+	position: relative;
+	right: 28px;
+}
+
+.card-fix-arm {
+	position: relative;
+	bottom: 6px;
+	left: 54px;
+	background-image: url('../assets/sprite.png');
+	background-position: -74px 350px; 
+	height: 122px;
+	width: 38px;
+}
+
+.card-fix-leg {
+	position: relative;
+	bottom: 0px;
+	left: 38px;
+	background-image: url('../assets/sprite.png');
+	background-position: -132px 350px; 
+	height: 116px;
+	width: 46px;
+}
+
+.card-fix-gherkin {
+	position: relative;
+	bottom: 0;
+	left: 30px;
+	background-image: url('../assets/sprite.png');
+	background-position: -10px 350px; 
+	height: 124px;
+	width: 48px;
+} 
+
+.cardBag .card-postscript {
+	/* color: white; */
+	font-size: 35px;
+	position: absolute;
+	left: 119px;
+	bottom: 104px;
+}
+
+.cardBag .card-postscript-left {
+	/* color: white; */
+	font-size: 35px;
+	position: absolute;
+	left: 128px;
+	bottom: 104px;
+}
+
+.cardBag .card-postscript-right {
+	/* color: white; */
+	font-size: 35px;
+	position: absolute;
+	left: 116px;
+	bottom: 104px;
+}
+
+.cardBag .card-postscript-sign {
+	/* color: white; */
+	font-size: 22px;
+	position: absolute;
+	left: 90px;
+	bottom: 109px;
+}
+
+.cardBag .card-postscript-sign-left {
+	/* color: white; */
+	font-size: 22px;
+	position: absolute;
+	left: 96px;
+	bottom: 109px;
+}
+
+.cardBag .card-postscript-sign-right {
+	/* color: white; */
+	font-size: 22px;
+	position: absolute;
+	left: 90px;
+	bottom: 109px;
+}
+
+.cardBag .card-sub {
+	font: 14px sans-serif;
+	margin-top: 9px;
+}
+
+@media (max-width: 500px){
+  .card{
+    /*width: 100%;*/
+    background: red;
+  }
+}
+
+@media (min-width: 500px){
+  .card{
+    /*max-width: 60px;*/
+    /*min-width: 165px;*/
+  }
+  .card .card-header {
+			/*max-width: 60px;*/
+		}
+}
+
+

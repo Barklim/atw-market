@@ -1,0 +1,60 @@
+.moneyBox-container {
+	height: 141px;
+}
+
+.moneyBox-moneyTemplate{
+	display: flex;
+	justify-content: center;
+	//flex-wrap: wrap;
+	//box-sizing: border-box;
+	margin-top: 20px;
+	margin-left: 16px;
+	flex-direction:  row-reverse;
+}
+
+.moneyBox-coin{
+	background-image: url('../assets/coin.svg');
+	width: 24px;
+	height: 30px;
+	margin-left:-19px;
+}
+
+.moneyBox-zero {
+	margin: 0 20px 0 0;
+	height: 30px;
+	color: white;
+}
+
+.moneyBox-sub {
+  text-align: center; 
+	margin-top: 5px;
+	font: 12px sans-serif;
+	color: white;
+}
+
+.moneyBox-btn {
+	font: 12px sans-serif;
+	margin-top: 16px;
+	margin: 16px auto 0;
+	padding-bottom: 1px;
+	color: white;
+	text-decoration: none;
+	//text-decoration: underline dotted;
+	border-bottom: 1px white dotted;
+	max-width: 130px;
+	cursor: default;
+  -webkit-user-select: none;
+  /* user-select -- это нестандартное свойство */
+  -moz-user-select: none;
+  /* поэтому нужны префиксы */
+  -ms-user-select: none;
+}
+
+/* ---------- Media ---------- */
+
+@media (max-width: 1010px){
+  .moneyBox-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}

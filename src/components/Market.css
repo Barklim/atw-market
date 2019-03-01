@@ -1,0 +1,43 @@
+.market-container {
+	//background: linear-gradient(to top, #063964, #020D18);
+}
+
+.cardsIngredient {
+	padding-top: 22px;
+	padding-bottom: 62px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+
+.cardIngredient {
+	position: relative;
+	text-decoration: none;
+	min-width: 188px;
+	text-align: center;
+}
+
+.cardIngredient-opacity {
+	opacity: 0.3;
+	position: relative;
+	text-decoration: none;
+	min-width: 188px;
+	text-align: center;
+}
+
+.cardIngredient .card-sub {
+	margin-top: 8px;
+}
+
+.cardIngredient-opacity .card-sub-opacity {
+	margin-top: 8px;
+}
+
+@media(max-width: 1010px){
+  .cardIngredient{
+    min-width: 188px;
+    min-height: 100px;
+    margin-top: 80px;
+  }
+}
