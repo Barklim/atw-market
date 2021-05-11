@@ -16,13 +16,13 @@ Redux middleware console
 Animation
 
 
-# Botstrapped
+## Botstrapped
 
 - React `^16.4.1`
 - Redux `^4.0.0`
 - node 8.9.4
 
-### Meta
+## Meta
 
 Links:
 
